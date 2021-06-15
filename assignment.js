@@ -15,6 +15,30 @@ console.log(yourKilometer);
 
 
 
+// Budget Calculator
+
+function budgetCalculator(totalWatch, totalMobile, totalLaptop){
+    var watchPrice = 50;
+    var totalWatchPrice = watchPrice * totalWatch;
+
+    var mobilePrice = 100;
+    var totalMobilePrice = mobilePrice * totalMobile;
+
+    var laptopPrice = 500;
+    var totalLaptopPrice = laptopPrice * totalLaptop;
+
+    var totalMoney = totalWatchPrice + totalMobilePrice + totalLaptopPrice;
+
+    return totalMoney;
+}
+let watch = 2;
+let mobile = 2;
+let laptop = 2;
+var result = budgetCalculator(watch, mobile, laptop);
+console.log(result);
+
+
+
 // Hotel Cost
 
 function hotelCost(day){
@@ -40,7 +64,8 @@ function hotelCost(day){
     }
     return cost;
 }
-var totalCost = hotelCost(21);
+var totalDay = 33;
+var totalCost = hotelCost(totalDay);
 console.log(totalCost);
 
 
@@ -57,6 +82,6 @@ function megaFriend(name){
     }
     return longestName;
 }
-var fName = ['Nahid Sarkar', 'Sazzat Hosssain', 'MI RaNa'];
-var result = megaFriend(fName);
-console.log(result);
+var fName = ['Nahid Sarkar', 'Sazzat Hosssain', 'MI RaNa', 'Sajib Khan'];
+var output = megaFriend(fName);
+console.log(output);
