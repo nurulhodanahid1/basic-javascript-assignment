@@ -10,7 +10,7 @@ function kilometerToMetre(kilometer){
     }
     return metre;
 }
-var yourKilometer = kilometerToMetre(-33);
+var yourKilometer = kilometerToMetre(3);
 console.log(yourKilometer);
 
 
@@ -42,3 +42,21 @@ function hotelCost(day){
 }
 var totalCost = hotelCost(21);
 console.log(totalCost);
+
+
+
+// Mega Friend
+
+function megaFriend(name){
+    var length = 0;
+    for (var i = 0; i < name.length; i++) {
+        if (name[i].length > length){
+        var length = name[i].length;
+        var longestName = name[i];
+        }
+    }
+    return longestName;
+}
+var fName = ['Nahid Sarkar', 'Sazzat Hosssain', 'MI RaNa'];
+var result = megaFriend(fName);
+console.log(result);
