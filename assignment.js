@@ -1,3 +1,5 @@
+// https://github.com/nurulhodanahid1/basic-javascript-assignment
+
 // Kilometer to Meter
 
 function kilometerToMetre(kilometer){
@@ -11,7 +13,7 @@ function kilometerToMetre(kilometer){
     return metre;
 }
 var yourKilometer = kilometerToMetre(3);
-console.log(yourKilometer);
+console.log('Meter: ',yourKilometer,'m');
 
 
 
@@ -35,7 +37,7 @@ let watch = 2;
 let mobile = 2;
 let laptop = 2;
 var result = budgetCalculator(watch, mobile, laptop);
-console.log(result);
+console.log('Budget: ',result,'tk');
 
 
 
@@ -64,9 +66,9 @@ function hotelCost(day){
     }
     return cost;
 }
-var totalDay = 33;
+var totalDay = 34;
 var totalCost = hotelCost(totalDay);
-console.log(totalCost);
+console.log('Hotel cost: ',totalCost,'tk');
 
 
 
@@ -84,4 +86,4 @@ function megaFriend(name){
 }
 var fName = ['Nahid Sarkar', 'Sazzat Hosssain', 'MI RaNa', 'Sajib Khan'];
 var output = megaFriend(fName);
-console.log(output);
+console.log("Mega Friend: ",output);
